@@ -41,7 +41,7 @@ This is acceptable; you don’t need to exactly duplicate the sample output give
 
 **Test output**
 
-> **Track 1:**
+> **Track 1:**<br/>
 > 09:00AM Writing Fast Tests Against Enterprise Rails 60min<br/>
 > 10:00AM Communicating Over Distance 60min<br/>
 > 11:00AM Rails Magic 60min<br/>
@@ -53,7 +53,7 @@ This is acceptable; you don’t need to exactly duplicate the sample output give
 > 04:15PM User Interface CSS in Rails Apps 30min<br/>
 > 04:45PM Rails for Python Developers lightning<br/>
 > 04:50PM Networking Event<br/>
-<br/>
+>
 > **Track 2:**<br/>
 > 09:00AM Ruby on Rails Legacy App Maintenance 60min<br/>
 > 10:00AM Overdoing it in Python 45min<br/>
