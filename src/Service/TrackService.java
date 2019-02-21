@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -121,7 +122,7 @@ public class TrackService {
 	/*
 	 * This class is responsible for organize the conference event during the afternoon
 	 * 
-	 * @param ArrayList<Track> tracks
+	 * @param ArrayList<Conference> conferenceTrackList, ArrayList<Track> tracks
 	 * @return ArrayList<Conference> conferenceTrackList
 	 */	
 	private ArrayList<Conference> buildAfternoonConference(ArrayList<Conference> conferenceTrackList,
@@ -159,6 +160,20 @@ public class TrackService {
 		conferenceTrackList.add(new Conference(time, new Track("Networking Event", 0)));
 		
 		return conferenceTrackList;
+	}
+
+	/*
+	 * This class is responsible for showing the conference event
+	 * 
+	 * @param ArrayList<Conference> conferenceTracks
+	 */	
+	public void showConferenceEvent(ArrayList<Conference> conferenceTracks) {
+		
+		DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("hh:mm a");
+		
+		for (Conference conferenceTrack: conferenceTracks) {
+			System.out.print(conferenceTrack.getTime().format(timeFormat) + " " + conferenceTrack.getTrack().getDescription() + "\n");
+		}
 	}
 
 }
