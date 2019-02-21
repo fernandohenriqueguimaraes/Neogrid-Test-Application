@@ -20,23 +20,18 @@ public class ConferenceTrackManagement {
 		TrackService service = new TrackService();
 		
 		try {
-		
+			
 			BufferedReader lines = service.getInputData("input/input.txt");
 			ArrayList<Track> tracks = service.buildTracks(lines);
 			ArrayList<Conference> conferenceTracks =service.buildConference(tracks);
 			service.showConferenceEvent(conferenceTracks);
 
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (NumberFormatException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
-
 }
