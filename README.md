@@ -19,25 +19,25 @@ This is acceptable; you don’t need to exactly duplicate the sample output give
 
 **Test input**
 ´´
-> Writing Fast Tests Against Enterprise Rails 60min
-> Overdoing it in Python 45min
-> Lua for the Masses 30min
-> Ruby Errors from Mismatched Gem Versions 45min
-> Common Ruby Errors 45min
-> Rails for Python Developers lightning
-> Communicating Over Distance 60min
-> Accounting-Driven Development 45min
-> Woah 30min
-> Sit Down and Write 30min
-> Pair Programming vs Noise 45min
-> Rails Magic 60min
-> Ruby on Rails: Why We Should Move On 60min
-> Clojure Ate Scala (on my project) 45min
-> Programming in the Boondocks of Seattle 30min
-> Ruby vs. Clojure for Back-End Development 30min
-> Ruby on Rails Legacy App Maintenance 60min
-> A World Without HackerNews 30min
-> User Interface CSS in Rails Apps 30min
+> Writing Fast Tests Against Enterprise Rails 60min<br/>
+> Overdoing it in Python 45min<br/>
+> Lua for the Masses 30min<br/>
+> Ruby Errors from Mismatched Gem Versions 45min<br/>
+> Common Ruby Errors 45min<br/>
+> Rails for Python Developers lightning<br/>
+> Communicating Over Distance 60min<br/>
+> Accounting-Driven Development 45min<br/>
+> Woah 30min<br/>
+> Sit Down and Write 30min<br/>
+> Pair Programming vs Noise 45min<br/>
+> Rails Magic 60min<br/>
+> Ruby on Rails: Why We Should Move On 60min<br/>
+> Clojure Ate Scala (on my project) 45min<br/>
+> Programming in the Boondocks of Seattle 30min<br/>
+> Ruby vs. Clojure for Back-End Development 30min<br/>
+> Ruby on Rails Legacy App Maintenance 60min<br/>
+> A World Without HackerNews 30min<br/>
+> User Interface CSS in Rails Apps 30min<br/>
 ´´
 **Test output**
 
